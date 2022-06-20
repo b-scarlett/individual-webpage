@@ -1,0 +1,118 @@
+body{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+width: 100%;
+object-fit: contain;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(247, 245, 242);
+    box-shadow: 0 0 5px rgb(161, 159, 159);
+}
+.navbar img{
+    width: 250px;
+    height: 250px;
+}
+
+.buttons button {
+    background-color: white;
+    border: none;
+    color: #fb7802;
+    padding: 5px 10px;
+    font-weight: 600;
+
+}
+
+.buttons button:hover{
+    color: white;
+    background-color: #fb7802;
+}
+
+.intro-bar{
+    background-color: #fb7802;;
+    width: 100%;
+    height: 300px;
+    padding: 4px;
+    display: flex;
+    
+}
+
+.intro-bar button{
+    background-color: rgb(235, 231, 231);
+    border: 3px;
+    color: c10909;
+    font-weight: 650;
+    margin: 10px;
+    padding: 10px;
+}
+
+.intro-bar img{
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    
+}
+.intro-bar p{
+    color: rgb(248, 242, 242);
+    margin: 10px;
+
+}    
+
+.most-popular-section{
+    color:rgb(161, 159, 159);
+    padding: 20px;
+    text-align: center;
+}
+.most-popular{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.most-popular :hover{
+    background-color:  #fb7802;
+    color: #ffffff;
+}
+.popular{
+    background-color: #f8f5f1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgb(161, 159, 159);
+}
+.popular img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.precision-engineer-tools-section{
+    display: flex;
+    
+    
+}
+.precision-banner {
+    background-color: rgb(226, 223, 223);
+    width: 100%; 
+    height: 300px; 
+}
+.precision-engineering{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}

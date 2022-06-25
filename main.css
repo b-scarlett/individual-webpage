@@ -204,6 +204,10 @@ object-fit: contain;
     padding: 15px;
 
 }
+.login-navbar img{
+    width: 250px;
+    height: 250px;
+}
 .login-body-box{
     margin: 0;
     padding: 0;

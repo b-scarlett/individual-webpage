@@ -36,6 +36,7 @@ object-fit: contain;
     border: none;
     color: #fb7802;
     padding: 5px 10px;
+    margin-top: 00px;
     font-weight: 600;
 
 }
@@ -49,7 +50,7 @@ object-fit: contain;
     background-color: #fb7802;
     width: 100%;
     height: auto;
-    padding: 4px;
+    padding: 0px;
     display: flex;
 }
 
@@ -59,6 +60,7 @@ object-fit: contain;
     color: c10909;
     font-weight: 650;
     margin: 10px;
+    margin-top: 50px;
     padding: 10px;
 }
 
@@ -95,24 +97,44 @@ object-fit: contain;
 }
 .popular img{
     height: 200px;
-    width: 300px;
+    width: 200px;
     object-fit: contain;
 }
 
-.precision-engineer-tools-section{
-    display: flex;
-    margin-bottom: 40px;
-}
-.precision-banner {
-    background-color: #fb7802;;
+/* .precision-engineer-tools-section{
     width: 100%;
     height: auto;
-    padding: 4px;
     display: flex;
+    margin-bottom: 40px;
+    text-align: center; 
+}*/
+.precision-banner {
+    background-color: #fb7802;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    
+}
+.precision-banner img{
+   object-fit: contain;
 }
 .precision-engineering{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 15px;
     row-gap: 15px;
+}
+
+.precision-text{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.precision-banner h3{
+    margin-top: 60px;
+}
+
+.ptext-one{
+    margin-bottom: 30px;
 }

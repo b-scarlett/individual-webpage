@@ -31,7 +31,7 @@ object-fit: contain;
 .navbar p {
     text-align: center;
 }
-.buttons button {
+.buttons a {
     background-color: white;
     border: none;
     color: #fb7802;

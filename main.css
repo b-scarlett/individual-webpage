@@ -144,6 +144,14 @@ object-fit: contain;
 .ptext-one{
     margin-bottom: 30px;
 }
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #485b6c;
+    display: flex;
+   align-content: center ;
+    grid-template-columns: repeat(3 1fr);
+}
 
 .error-container{
     margin: 0;

@@ -21,10 +21,10 @@ object-fit: contain;
     margin: 10px;
     background-color: rgb(247, 245, 242);
     box-shadow: 0 0 5px rgb(161, 159, 159);
-    padding: 15px;
+    padding: 10px;
 }
 .navbar img{
-    width: 250px;
+    width: 200px;
     height: 250px;
 }
 
@@ -32,6 +32,7 @@ object-fit: contain;
     text-align: center;
 }
 .buttons a {
+    text-decoration: none;
     background-color: white;
     border: none;
     color: #fb7802;
@@ -41,7 +42,7 @@ object-fit: contain;
 
 }
 
-.buttons button:hover{
+.buttons a:hover{
     color: white;
     background-color: #fb7802;
 }
@@ -266,16 +267,32 @@ object-fit: contain;
 .login-box a{
     text-transform: uppercase;
 }
+.login-buttons a {
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    color: #fb7802;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-weight: 600;
 
-.login-footer{
+}
+
+.login-buttons a:hover{
+    color: white;
+    background-color: #fb7802;
+}
+/* .login-footer{
     text-align-last: center;
     display: flex;
-}
+} */
 
 .contact-form{
     margin: 0;
     padding: 0;
-    background: url;
+    background: url(image/bg-logo-two.jpg)  center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 

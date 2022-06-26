@@ -266,3 +266,9 @@ object-fit: contain;
 .login-box a{
     text-transform: uppercase;
 }
+
+.login-footer{
+    text-align-last: center;
+    display: flex;
+    tes
+}

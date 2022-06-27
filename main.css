@@ -350,10 +350,10 @@ object-fit: contain;
     font-size: 18px;
     margin-top: 6px;
 }
-.btn{
+.contact-fields a{
     text-decoration: none;
     display: inline-block;
-    background: #fb7802;
+    background: #485b6c;
     padding: 14px 0;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -364,7 +364,6 @@ object-fit: contain;
 .footer-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* color: #fb7802; */
     background-color:#485b6c;
     padding: 10px;
 }

@@ -52,6 +52,7 @@ object-fit: contain;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin: 10px;
+    color: #485b6c;
 }
 .intro-bar p{
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +87,7 @@ object-fit: contain;
 }    
 
 .most-popular-section{
-    color:rgb(161, 159, 159);
+    color:#485b6c;
     padding: 20px;
     text-align: center;
 }
@@ -119,7 +120,7 @@ object-fit: contain;
 
 .precision-engineer-tools-section{
    margin-bottom: 40px;
-  
+     
 }
 .precision-banner {
     background-color: #fb7802;
@@ -129,6 +130,7 @@ object-fit: contain;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    color: #e7e2dd;
     
 }
 .precision-banner img{
@@ -148,15 +150,16 @@ object-fit: contain;
     box-shadow: 0 0 5px rgb(161, 159, 159);
     text-align: center;
 }
-.precision-text{
-    
+.precision-text {
     padding: 20px;
     margin-bottom: 15px;
 }
 .precision-banner h3{
     margin-top: 30px;
 }
-
+.precision-engineering h3, p{
+    color: #485b6c;
+}
 .ptext-one{
     margin-bottom: 30px;
 }

@@ -160,15 +160,6 @@ object-fit: contain;
 .ptext-one{
     margin-bottom: 30px;
 }
-/* .footer{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: #485b6c;
-    display: flex;
-   align-content: center ;
-    grid-template-columns: repeat(3 1fr);
-} */
-
 .error-container{
     margin: 0;
     padding: 0;
@@ -237,9 +228,7 @@ object-fit: contain;
     padding: 0;
     background: #485b6c;
     font-family: sans-serif;
-
 } 
-
 .login-box{
     width: 400px;
     padding: 40px;
@@ -304,13 +293,21 @@ object-fit: contain;
 .login-buttons a:hover{
     color: white;
     background-color: #fb7802;
+ }
+
+.login-footer{
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #485b6c;
 }
-
-
 .contact-form{
     margin: 0;
     padding: 0;
-    /* background-size: cover; */
     width: 85%;
     max-width: 600px;
     background: #f1f1f1;
@@ -360,6 +357,16 @@ object-fit: contain;
     cursor: pointer;
     margin-top: 8px;
     width: 100%;
+}
+.contact-footer{
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #485b6c;
 }
 .footer-section{
     display: grid;

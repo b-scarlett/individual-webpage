@@ -174,7 +174,7 @@ object-fit: contain;
     letter-spacing: 10px;
     background: url(image/bg-logo-two.jpg)  center no-repeat;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .error-container p{
@@ -289,10 +289,7 @@ object-fit: contain;
     color: white;
     background-color: #fb7802;
 }
-/* .login-footer{
-    text-align-last: center;
-    display: flex;
-} */
+
 
 .contact-form{
     margin: 0;

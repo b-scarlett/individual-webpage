@@ -366,7 +366,7 @@ object-fit: contain;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: #485b6c;
+    background-color: #fb7802;
 }
 .footer-section{
     display: grid;

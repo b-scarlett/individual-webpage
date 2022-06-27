@@ -13,6 +13,7 @@ object-fit: contain;
     width: 1240px;
     margin: 0 auto;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,9 @@ object-fit: contain;
 
 .navbar p {
     text-align: center;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    }
 .buttons a {
     text-decoration: none;
     background-color: white;
@@ -45,12 +48,21 @@ object-fit: contain;
     color: white;
     background-color: #fb7802;
 }
-
+.intro-bar-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+.intro-bar p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #343434;
+}
 .intro-bar{
     background-color: #fb7802;
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 0px;
     display: flex;
 }
 
@@ -77,6 +89,10 @@ object-fit: contain;
     color:rgb(161, 159, 159);
     padding: 20px;
     text-align: center;
+}
+.most-popular-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .most-popular{
     display: grid;
@@ -274,7 +290,7 @@ object-fit: contain;
 .login-box a{
     text-transform: uppercase;
 }
-.login-buttons a {
+.login-buttons a{
     text-decoration: none;
     background-color: white;
     border: none;
